@@ -31,6 +31,7 @@ spec:
     spec:
       containers:
       - name: primary
+
         #image: quay.io/pawel_wysokinski_bh/spin-kub-v2-demo
         image: index.docker.io/lwander/spin-kub-v2-demo
         ports:
