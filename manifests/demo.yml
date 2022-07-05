@@ -32,7 +32,6 @@ spec:
       containers:
       - name: primary
         #image: quay.io/pawel_wysokinski_bh/spin-kub-v2-demo
-        # test
         image: index.docker.io/lwander/spin-kub-v2-demo
         ports:
         - containerPort: 8000
